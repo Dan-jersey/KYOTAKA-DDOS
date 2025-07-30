@@ -1,7 +1,5 @@
 #!/bin/bash
 clear
-bash style/matrix_effect.sh &
-MATRIX_PID=$!
 
 echo ""
 cat assets/banner.txt
@@ -20,5 +18,4 @@ do
   echo ""
 done
 
-kill $MATRIX_PID 2>/dev/null
 echo -e "\nTest terminé."
